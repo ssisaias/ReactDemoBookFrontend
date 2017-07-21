@@ -1,29 +1,24 @@
 .button {
     display: inline-block;
     font-size: 12pt;
-    line-height: 1.8;
+    line-height: 2;
     box-shadow: none;
-    -webkit-appearance: none;
     border-radius: 0;
-    text-shadow: -1px 1px #417cb8;
     border: none;
-}
-
-button:focus{
-    outline: none;
+    margin: 4px;
 }
 
 .button-info{
-    color: #fff;
+    color: #000;
     background-color: #68f
 }
 
 .button-danger{
-    color: #fff;
+    color: #000;
     background-color: #f66
 }
 
 .button-success{
-    color: #fff;
+    color: #000;
     background-color: #8fa
 }

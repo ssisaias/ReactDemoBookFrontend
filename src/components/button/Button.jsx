@@ -40,5 +40,24 @@ function SaveButton(props){
         type="success"/>
     );
 }
-Button.save = SaveButton;
+
+function CancelButton(props){
+    return (
+        <Button{...props }
+        caption="Cancelar" 
+        type="danger"/>
+    );
+}
+
+function OkButton(props){
+    return (
+        <Button{...props }
+        caption="Ok" 
+        type="success"/>
+    );
+}
+
+Button.Save = SaveButton;
+Button.Cancel = CancelButton;
+Button.Ok = OkButton;
 export default Button;
